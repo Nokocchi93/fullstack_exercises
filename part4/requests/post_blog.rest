@@ -1,0 +1,35 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "blog 1",
+  "author": "Aitor Mateu",
+  "url": "www.aitor.com",
+  "likes": "10000",
+  "userId": "618ce653a81b513e1cc154c1"
+}
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikx1aXMiLCJpZCI6IjYxOGQzOTdiMjZjZWRlZGY0MzkxZjk1YyIsImlhdCI6MTYzNjY0Njg4NCwiZXhwIjoxNjM2NjQ2OTQ0fQ.59yJASi3MlBUIpUDyRYd2Ya-XrFHQugKGwv9of915gs
+
+{
+  "title": "blog888",
+  "author": "Aitor Mate888",
+  "url": "www.aito888.com",
+  "likes": "8880000",
+  "userId": "618ce653a81b513e1cc154c1"
+}
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "titulo",
+  "author": "hola",
+  "url": "www.adios.com",
+  "likes": "123",
+  "userId": "618ce653a81b513e1cc154c1"
+}
