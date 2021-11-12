@@ -1,0 +1,17 @@
+POST http://localhost:3001/api/persons
+# https://secure-hollows-21650.herokuapp.com/api/persons/
+Content-Type: application/json
+
+{
+    "name": "Aitor",
+    "number": "333333333 "
+}
+
+###
+PUT http://localhost:3001/api/persons/616fe5a84875358d3a3e766b HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "React patterns",
+  "number": "777"
+}

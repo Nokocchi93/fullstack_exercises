@@ -1,0 +1,2 @@
+DELETE http://localhost:3001/api/persons/616fe76eea40153585e7c5c2
+# https://secure-hollows-21650.herokuapp.com/api/persons/616fe76eea40153585e7c5c2
